@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Busybox version: 1.26.2
-# Tue Jan 24 09:08:29 2017
+# Tue Jan 24 12:27:50 2017
 #
 CONFIG_HAVE_DOT_CONFIG=y
 
@@ -46,10 +46,10 @@ CONFIG_STATIC=y
 # CONFIG_FEATURE_INDIVIDUAL is not set
 # CONFIG_FEATURE_SHARED_BUSYBOX is not set
 CONFIG_LFS=y
-CONFIG_CROSS_COMPILER_PREFIX="/opt/android/toolchains/x86/bin/i686-linux-android-"
-CONFIG_SYSROOT="/opt/android/toolchains/x86/sysroot"
-CONFIG_EXTRA_CFLAGS="-static"
-CONFIG_EXTRA_LDFLAGS="-static"
+CONFIG_CROSS_COMPILER_PREFIX="/opt/android/toolchains/x86_64/bin/x86_64-linux-android-"
+CONFIG_SYSROOT="/opt/android/toolchains/x86_64/sysroot"
+CONFIG_EXTRA_CFLAGS="-m32"
+CONFIG_EXTRA_LDFLAGS="-m32"
 CONFIG_EXTRA_LDLIBS=""
 
 #
